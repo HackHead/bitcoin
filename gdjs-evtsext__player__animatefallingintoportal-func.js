@@ -15,7 +15,7 @@ gdjs.evtsExt__Player__AnimateFallingIntoPortal.conditionTrue_0 = {val:false};
 gdjs.evtsExt__Player__AnimateFallingIntoPortal.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Player__AnimateFallingIntoPortal.asyncCallback13289636 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+gdjs.evtsExt__Player__AnimateFallingIntoPortal.asyncCallback14677332 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Player"), gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPlayerObjects2);
 
 {for(var i = 0, len = gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPlayerObjects2.length ;i < len;++i) {
@@ -31,7 +31,7 @@ gdjs.evtsExt__Player__AnimateFallingIntoPortal.eventsList0 = function(runtimeSce
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPlayerObjects1) asyncObjectsList.addObject("Player", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.evtsExt__Player__AnimateFallingIntoPortal.asyncCallback13289636(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.evtsExt__Player__AnimateFallingIntoPortal.asyncCallback14677332(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 

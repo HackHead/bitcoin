@@ -1,6 +1,6 @@
 {
-  "name": "Flaky Thumb (Platformer)",
-  "short_name": "Flaky Thumb (Platformer)",
+  "name": "zkSync",
+  "short_name": "zkSync",
   "id": "com.example.platformer",
   "description": "An example of a basic platformer (Mario-like) game. Jump around and collect as many coins as you can!",
   "orientation": "landscape",
