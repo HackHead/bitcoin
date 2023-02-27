@@ -266,7 +266,7 @@ for(var i = 0, k = 0, l = gdjs.LevelCode.GDJumpButtonObjects3.length;i<l;++i) {
 gdjs.LevelCode.GDJumpButtonObjects3.length = k;}if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14864036);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14888708);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -296,7 +296,7 @@ for(var i = 0, k = 0, l = gdjs.LevelCode.GDJumpButtonObjects2.length;i<l;++i) {
 gdjs.LevelCode.GDJumpButtonObjects2.length = k;}if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14865204);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14889876);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -383,7 +383,7 @@ for(var i = 0, k = 0, l = gdjs.LevelCode.GDPlayerObjects3.length;i<l;++i) {
 gdjs.LevelCode.GDPlayerObjects3.length = k;}if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14867252);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14891924);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -404,7 +404,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtsExt__Player__IsSteppingOnFloor.
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14867924);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14892596);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -649,7 +649,7 @@ for(var i = 0, k = 0, l = gdjs.LevelCode.GDPlayerObjects2.length;i<l;++i) {
 gdjs.LevelCode.GDPlayerObjects2.length = k;}if ( gdjs.LevelCode.condition1IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition2IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14877748);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14901236);
 }
 }}
 }
@@ -690,7 +690,7 @@ for(var i = 0, k = 0, l = gdjs.LevelCode.GDPlayerObjects1.length;i<l;++i) {
 gdjs.LevelCode.GDPlayerObjects1.length = k;}if ( gdjs.LevelCode.condition1IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition2IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14878972);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14902572);
 }
 }}
 }
@@ -1087,7 +1087,7 @@ gdjs.LevelCode.eventsList20 = function(runtimeScene) {
 gdjs.LevelCode.condition0IsTrue_0.val = false;
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition0IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14893316);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14916804);
 }
 }if (gdjs.LevelCode.condition0IsTrue_0.val) {
 
@@ -1226,7 +1226,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTe
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14890356);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14913844);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -1439,7 +1439,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = false;
 {
 gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.LevelCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "2019-12-11_-_Retro_Platforming_-_David_Fesliyan.mp3", 1, true, 100, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "2019-12-11_-_Retro_Platforming_-_David_Fesliyan.mp3", false, 100, 1);
 }}
 
 }
@@ -1522,7 +1522,7 @@ gdjs.LevelCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTe
 }if ( gdjs.LevelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition1IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14402716);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14934404);
 }
 }}
 if (gdjs.LevelCode.condition1IsTrue_0.val) {
@@ -1714,7 +1714,7 @@ for(var i = 0, k = 0, l = gdjs.LevelCode.GDZombieObjects2.length;i<l;++i) {
 gdjs.LevelCode.GDZombieObjects2.length = k;}if ( gdjs.LevelCode.condition1IsTrue_0.val ) {
 {
 {gdjs.LevelCode.conditionTrue_1 = gdjs.LevelCode.condition2IsTrue_0;
-gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9612724);
+gdjs.LevelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14932900);
 }
 }}
 }
