@@ -15,7 +15,7 @@ gdjs.evtsExt__Player__AnimateFallingIntoPortal.conditionTrue_0 = {val:false};
 gdjs.evtsExt__Player__AnimateFallingIntoPortal.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Player__AnimateFallingIntoPortal.asyncCallback14702004 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+gdjs.evtsExt__Player__AnimateFallingIntoPortal.asyncCallback14858108 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Player"), gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPlayerObjects2);
 
 {for(var i = 0, len = gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPlayerObjects2.length ;i < len;++i) {
@@ -31,7 +31,7 @@ gdjs.evtsExt__Player__AnimateFallingIntoPortal.eventsList0 = function(runtimeSce
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPlayerObjects1) asyncObjectsList.addObject("Player", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.evtsExt__Player__AnimateFallingIntoPortal.asyncCallback14702004(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.evtsExt__Player__AnimateFallingIntoPortal.asyncCallback14858108(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
@@ -47,7 +47,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 gdjs.copyArray(eventsFunctionContext.getObjects("Player"), gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPlayerObjects1);
 gdjs.copyArray(eventsFunctionContext.getObjects("Portal"), gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPortalObjects1);
 {for(var i = 0, len = gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPlayerObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPlayerObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Tween")).addObjectPositionTween("MoveIntoPortal", (( gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPortalObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPortalObjects1[0].getCenterXInScene()) + (gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPlayerObjects1[i].getWidth()) / 2, (( gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPortalObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPortalObjects1[0].getCenterYInScene()), "linear", 1000, false);
+    gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPlayerObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Tween")).addObjectPositionTween("MoveIntoPortal", (( gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPortalObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPortalObjects1[0].getCenterXInScene()) + (gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPlayerObjects1[i].getWidth()) / 2, (( gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPortalObjects1.length === 0 ) ? 0 :gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPortalObjects1[0].getCenterYInScene()), "linear", 500, false);
 }
 }{for(var i = 0, len = gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPlayerObjects1.length ;i < len;++i) {
     gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPlayerObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Tween")).addObjectAngleTween("RotateIntoPortal", 360, "linear", 1000, false);

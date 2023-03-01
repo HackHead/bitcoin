@@ -1,6 +1,6 @@
 {
-  "name": "zkSync",
-  "short_name": "zkSync",
+  "name": "Crypto",
+  "short_name": "Crypto",
   "id": "com.example.platformer",
   "description": "An example of a basic platformer (Mario-like) game. Jump around and collect as many coins as you can!",
   "orientation": "landscape",
