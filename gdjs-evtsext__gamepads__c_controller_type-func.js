@@ -11,7 +11,7 @@ gdjs.evtsExt__Gamepads__C_Controller_type.conditionTrue_0 = {val:false};
 gdjs.evtsExt__Gamepads__C_Controller_type.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Gamepads__C_Controller_type.userFunc0xbfba08 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__C_Controller_type.userFunc0xc35ae8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {Gamepad[]} */
 const gamepads = navigator.getGamepads ? navigator.getGamepads() : (navigator.webkitGetGamepads ? navigator.webkitGetGamepads() : []);
@@ -46,7 +46,7 @@ gdjs.evtsExt__Gamepads__C_Controller_type.eventsList0 = function(runtimeScene, e
 {
 
 
-gdjs.evtsExt__Gamepads__C_Controller_type.userFunc0xbfba08(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Gamepads__C_Controller_type.userFunc0xc35ae8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
