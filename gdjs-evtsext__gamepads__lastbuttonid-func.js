@@ -11,7 +11,7 @@ gdjs.evtsExt__Gamepads__LastButtonID.conditionTrue_0 = {val:false};
 gdjs.evtsExt__Gamepads__LastButtonID.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Gamepads__LastButtonID.userFunc0x93be80 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__LastButtonID.userFunc0x8f0db0 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 //Get function parameter
 const playerId = eventsFunctionContext.getArgument("player_ID") - 1;
@@ -30,7 +30,7 @@ gdjs.evtsExt__Gamepads__LastButtonID.eventsList0 = function(runtimeScene, events
 {
 
 
-gdjs.evtsExt__Gamepads__LastButtonID.userFunc0x93be80(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Gamepads__LastButtonID.userFunc0x8f0db0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

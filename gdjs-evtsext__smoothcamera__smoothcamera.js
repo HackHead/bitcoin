@@ -3898,7 +3898,7 @@ for(var i = 0, k = 0, l = gdjs.evtsExt__SmoothCamera__SmoothCamera.SmoothCamera.
 gdjs.evtsExt__SmoothCamera__SmoothCamera.SmoothCamera.prototype.UpdateDelayedPositionContext.GDObjectObjects1.length = k;}if ( gdjs.evtsExt__SmoothCamera__SmoothCamera.SmoothCamera.prototype.UpdateDelayedPositionContext.condition0IsTrue_0.val ) {
 {
 {gdjs.evtsExt__SmoothCamera__SmoothCamera.SmoothCamera.prototype.UpdateDelayedPositionContext.conditionTrue_1 = gdjs.evtsExt__SmoothCamera__SmoothCamera.SmoothCamera.prototype.UpdateDelayedPositionContext.condition1IsTrue_0;
-gdjs.evtsExt__SmoothCamera__SmoothCamera.SmoothCamera.prototype.UpdateDelayedPositionContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(14815444);
+gdjs.evtsExt__SmoothCamera__SmoothCamera.SmoothCamera.prototype.UpdateDelayedPositionContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(14780724);
 }
 }}
 if (gdjs.evtsExt__SmoothCamera__SmoothCamera.SmoothCamera.prototype.UpdateDelayedPositionContext.condition1IsTrue_0.val) {

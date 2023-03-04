@@ -11,7 +11,7 @@ gdjs.evtsExt__Gamepads__StickForce.conditionTrue_0 = {val:false};
 gdjs.evtsExt__Gamepads__StickForce.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Gamepads__StickForce.userFunc0x93be80 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__StickForce.userFunc0x8f0db0 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {Gamepad[]} */
 const gamepads = navigator.getGamepads ? navigator.getGamepads() : (navigator.webkitGetGamepads ? navigator.webkitGetGamepads() : []);
@@ -56,7 +56,7 @@ gdjs.evtsExt__Gamepads__StickForce.eventsList0 = function(runtimeScene, eventsFu
 {
 
 
-gdjs.evtsExt__Gamepads__StickForce.userFunc0x93be80(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Gamepads__StickForce.userFunc0x8f0db0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
